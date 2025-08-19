@@ -228,7 +228,18 @@ footer {
         height: 20px;
     }
 
-    h1 {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about__images {
+        margin-top: 100px;
+    }
+
+    .about h1, .form h1 {
         font-size: 36px;
         line-height: 40px;
     }
@@ -240,5 +251,14 @@ footer {
     .about__sun-image {
         width: 75px;
         height: 75px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__group {
+        margin: 20px auto;
+        text-align: center;
     }
 }
